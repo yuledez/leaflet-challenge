@@ -1,0 +1,47 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+#map,
+body,
+html {
+  height: 100%;
+}
+
+/* Style for the legend container */
+.info.legend {
+  background-color: white;
+  padding: 10px;
+  border-radius: 5px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+  line-height: 18px;
+  color: #555;
+}
+
+/* Legend title */
+.legend-title {
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+/* Legend item container */
+.legend-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+/* Colored box */
+.legend-color {
+  width: 20px;
+  height: 10px;
+  margin-right: 5px;
+  display: inline-block;
+}
+
+/* Label */
+.legend-label {
+  flex-grow: 1;
+}
+
